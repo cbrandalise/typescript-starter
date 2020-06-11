@@ -5,7 +5,8 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const htmlPlugin = new HtmlWebPackPlugin({
-  title: 'Hello, World'
+  title: 'Hello, World',
+  template: './src/index.html'
 });
 
 const cleanWebpackPlugin = new CleanWebpackPlugin();
