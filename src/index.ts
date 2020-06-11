@@ -4,4 +4,6 @@ class App {
     }
 }
 
-export default App;
+(function() {
+    new App();
+})();
